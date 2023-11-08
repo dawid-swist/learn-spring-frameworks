@@ -1,6 +1,8 @@
 = Pharaoh project: Learn Spring Frameworks
 :toc:
 :toclevels: 5
+:source-linenums-option: yes
+
 The following repository contains learning material about Spring Frameworks project.
 
 == Spring Framework 6
