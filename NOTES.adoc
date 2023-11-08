@@ -1,7 +1,9 @@
 = Pharaoh project: Learn Spring Frameworks
 :toc:
 :toclevels: 5
+
 :source-linenums-option: yes
+:source-highlighter: CodeRay
 
 The following repository contains learning material about Spring Frameworks project.
 
