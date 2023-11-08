@@ -1,8 +1,7 @@
 = Pharaoh project: Learn Spring Frameworks
-
+:toc:
+:toclevels: 5
 The following repository contains learning material about Spring Frameworks project.
 
-
-== projects
-
-1. xref:learn-core-spring-framework/README.adoc[Spring Framework 6]
+== Spring Framework 6
+include::learn-core-spring-framework/README.adoc[]

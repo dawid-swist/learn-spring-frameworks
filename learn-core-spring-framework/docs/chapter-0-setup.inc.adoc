@@ -1,4 +1,4 @@
-=== How to setup Spring boot 3.0 with Spock Testing Framework.
+==== How to setup Spring boot 3.0 with Spock Testing Framework.
 :source-linenums-option: yes
 :source-highlighter: highlight.js
 
