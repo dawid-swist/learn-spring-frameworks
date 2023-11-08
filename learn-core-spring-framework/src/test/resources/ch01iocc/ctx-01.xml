@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="mbean1" class="dev.n9mac.pharaoh.learncorespringframework.ch01iocc.Mbean1">
+        <constructor-arg ref="mbean2"/>
+        <constructor-arg ref="mbean3"/>
+    </bean>
+
+    <bean id="mbean2" class="dev.n9mac.pharaoh.learncorespringframework.ch01iocc.Mbean2"/>
+    <bean id="mbean3" class="dev.n9mac.pharaoh.learncorespringframework.ch01iocc.Mbean3"/>
+</beans>

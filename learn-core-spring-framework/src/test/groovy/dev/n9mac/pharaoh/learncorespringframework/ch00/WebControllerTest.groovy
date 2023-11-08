@@ -1,4 +1,4 @@
-package dev.n9mac.pharaoh.learncorespringframework
+package dev.n9mac.pharaoh.learncorespringframework.ch00
 
 
 import org.springframework.beans.factory.annotation.Autowired
