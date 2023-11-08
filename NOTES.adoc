@@ -2,6 +2,7 @@
 :toc:
 :toclevels: 5
 :source-linenums-option: yes
+:source-highlighter: highlight.js
 
 The following repository contains learning material about Spring Frameworks project.
 
