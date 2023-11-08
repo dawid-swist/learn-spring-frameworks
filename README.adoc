@@ -5,4 +5,4 @@ The following repository contains learning material about Spring Frameworks proj
 
 == projects
 
-1. link:learn-core-spring-framework/README.adoc[Spring Framework 6]
+1. xref:learn-core-spring-framework/README.adoc[Spring Framework 6]
