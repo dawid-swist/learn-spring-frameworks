@@ -3,7 +3,7 @@
 :toclevels: 5
 
 :source-linenums-option: yes
-:source-highlighter: highlight.js
+:source-highlighter: CodeRay
 
 The following repository contains learning material about Spring Frameworks project.
 
