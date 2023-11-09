@@ -1,0 +1,29 @@
+==== How to instantiate a Container and get a bean from ApplicationContext.
+
+.XML-based Configuration Metadata
+[source,xml]
+----
+include::../src/test/resources/ch01iocc/ctx-01.xml[]
+----
+
+.Groovy Bean Definition DSL configuration meta data.
+[source,groovy]
+----
+include::../src/test/resources/ch01iocc/ctx-01.groovy[lines=4..10]
+----
+
+.Instantiate a Container
+[source,groovy]
+----
+// Imports
+include::../src/test/groovy/dev/n9mac/pharaoh/learncorespringframework/ch01iocc/ApplicationContextTestSpecification.groovy[lines=2..8]
+
+// Create IoC container base on XML configuration
+include::../src/test/groovy/dev/n9mac/pharaoh/learncorespringframework/ch01iocc/ApplicationContextTestSpecification.groovy[lines=14..23]
+
+// Create IoC container base on groovy configuration
+include::../src/test/groovy/dev/n9mac/pharaoh/learncorespringframework/ch01iocc/ApplicationContextTestSpecification.groovy[lines=27..35]
+
+// Create IoC container base on XML and groovy configuration (combined)
+include::../src/test/groovy/dev/n9mac/pharaoh/learncorespringframework/ch01iocc/ApplicationContextTestSpecification.groovy[lines=40..53]
+---
